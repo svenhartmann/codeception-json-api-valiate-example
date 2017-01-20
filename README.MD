@@ -4,4 +4,4 @@ Run
 
 `composer install`
 
-`php vendor/bin/codecept run api`
+`php vendor/bin/codecept run api --report --html`
