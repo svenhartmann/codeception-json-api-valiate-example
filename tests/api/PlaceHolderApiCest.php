@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Class SkuImportCest
+ * Class PlaceHolderApiCest
  */
 class PlaceHolderApiCest {
 
