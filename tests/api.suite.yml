@@ -1,0 +1,11 @@
+class_name: ApiTester
+modules:
+    enabled:
+        - Helper\Api
+        - JsonSchema
+        - REST:
+            depends: PhpBrowser
+            part: Json
+    config:
+      Helper\Api:
+        placeHolderApi: 'http://jsonplaceholder.typicode.com/'
